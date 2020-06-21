@@ -5,6 +5,7 @@
   "main": "loader.js",
   "scripts": {
     "dev": "nodemon",
+    "debug": "nodemon --inspect loader.js",
     "production": "pm2 start loader.js --name backend"
   },
   "author": "Yago Alves",
